@@ -46,5 +46,9 @@
   },
   "engines": {
     "node": ">=16.14"
+  },
+  "allowScripts": {
+    "core-js@3.44.0": true,
+    "core-js-pure@3.44.0": true
   }
 }
