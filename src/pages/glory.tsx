@@ -21,7 +21,7 @@ export default function Hello() {
                         <td>赛事</td>
                         <td>名次</td>
                     </tr>
-                    
+
                     <tr>
                         <td rowspan="7">2025年</td>
                         <td>2025年广西网络与信息安全职业技能竞赛</td>
@@ -91,7 +91,7 @@ export default function Hello() {
                         <td>第三届工控安全技能挑战赛</td>
                         <td>一等奖、二等奖、优秀奖</td>
                     </tr>
-                    
+
 
                     <tr>
                         <td rowspan="6">2023年</td>
@@ -189,7 +189,7 @@ export default function Hello() {
 
 
 
-                    
+
 
                     <tr>
                         <td rowspan="5">2020年</td>
@@ -252,7 +252,7 @@ export default function Hello() {
                         <td>“平衡信息杯”第二届南宁市网络安全攻防技术大赛决赛</td>
                         <td>二等奖</td>
                     </tr>
-                    
+
                     <tr>
                         <td rowspan="3">2016年</td>
                         <td>“安恒杯”首届南宁市网络安全攻防技术大赛决赛 </td>
