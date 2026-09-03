@@ -94,7 +94,7 @@ const config = {
                 },
                 {
                   label: '招新靶场（互联网可访问）',
-                  href: 'https://public.guetsec.cn/',
+                  href: 'https://ctf2.guetsec.cn/',
                 },
               ],
             },
