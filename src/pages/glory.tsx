@@ -33,7 +33,7 @@ export default function Hello() {
                         <td>一等奖</td>
                     </tr>
                     <tr>
-                        <td>2026年信息安全与对抗技术竞赛</td>
+                        <td>第23届全国大学生信息安全与对抗技术竞赛</td>
                         <td>三等奖</td>
                     </tr>
 
