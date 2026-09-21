@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Layout from '@theme/Layout';
 
@@ -23,8 +24,16 @@ export default function Hello() {
                     </tr>
 
                     <tr>
-                        <td rowspan="1">2026年</td>
+                        <td rowspan="3">2026年</td>
                         <td>第六届“长城杯”网络安全大赛（高校组）</td>
+                        <td>三等奖</td>
+                    </tr>
+                    <tr>
+                        <td>第十届“御网杯”网络安全线上挑战赛</td>
+                        <td>一等奖</td>
+                    </tr>
+                    <tr>
+                        <td>2026年信息安全与对抗技术竞赛</td>
                         <td>三等奖</td>
                     </tr>
 
