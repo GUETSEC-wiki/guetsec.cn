@@ -1,4 +1,7 @@
-绑定在腾讯 egdeone
+# 使用
+
+绑定在腾讯 egdeone 上
+<p> `git push ` 后自动构建
 
 # 部署
 
