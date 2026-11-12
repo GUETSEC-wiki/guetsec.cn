@@ -302,6 +302,20 @@ const members: Member[] = [
     blogUrl: 'https://github.com/djavgira',
     grade: '2025级',
   },
+  {
+    name: 'alice大萌神',
+    avatar: 'memberavatar/Alice.jpg',
+    description: '永远学二进制该多好',
+    blogUrl: 'https://foeveralice.github.io/',
+    grade: '2026级',
+  },
+  {
+    name: 'InvictusRex',
+    avatar: 'memberavatar/InvictusRex.jpg',
+    description: 'Web攻防 | 永无败者',
+    blogUrl: 'https://voide.top',
+    grade: '2026级',
+  },
 ]
 
 export default members;
