@@ -1,14 +1,20 @@
 import React from 'react';
 
-// className={'col col--6 margin-bottom--lg'}
+interface TeamMemberProfileCardProps {
+  className?: string;
+  name: string;
+  avatar: string;
+  description?: string;
+  blogUrl?: string;
+}
 
 export default function TeamMemberProfileCard({
   className,
   name,
   avatar,
-  children,
-  blogUrl
-}) {
+  description,
+  blogUrl,
+}: TeamMemberProfileCardProps) {
   return (
     <div className={className}>
       <div className="card card--full-height shadow--md">
@@ -17,18 +23,23 @@ export default function TeamMemberProfileCard({
             <img
               className="avatar__photo avatar__photo--xl"
               src={avatar}
-              alt={`${name}'s avatar`}
+              alt={`${name} 的头像`}
+              loading="lazy"
             />
             <div className="avatar__intro">
               <h3 className="avatar__name">{name}</h3>
             </div>
           </div>
         </div>
-        <div className="card__body">{children}</div>
+        {description && <div className="card__body">{description}</div>}
         <div className="card__footer">
           <div className="button-group button-group--block">
             {blogUrl && (
-              <a className="button button--secondary" href={blogUrl} target="_blank">
+              <a
+                className="button button--secondary"
+                href={blogUrl}
+                target="_blank"
+                rel="noopener noreferrer">
                 Blog
               </a>
             )}

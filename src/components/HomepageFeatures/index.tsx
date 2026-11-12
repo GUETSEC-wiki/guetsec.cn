@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 type FeatureItem = {
   title: string;
   Svg: React.ComponentType<React.ComponentProps<'svg'>>;
-  description: JSX.Element;
+  description: React.JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
@@ -14,7 +14,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/ctf.svg').default,
     description: (
       <>
-      CTF（Capture The Flag）是一种流行的信息安全竞赛形式，其中其竞赛模式分为解题模式（Jeopardy）和攻防模式（Attack-Defense），还有就是这两者混合一起用。其中的详细介绍可以通过<a href="https://ctf-wiki.org/" target="_blank">CTF-wiki</a>了解更多。
+      CTF（Capture The Flag）是一种流行的信息安全竞赛形式，其中其竞赛模式分为解题模式（Jeopardy）和攻防模式（Attack-Defense），还有就是这两者混合一起用。其中的详细介绍可以通过<a href="https://ctf-wiki.org/" target="_blank" rel="noopener noreferrer">CTF-wiki</a>了解更多。
       </>
     ),
   },
@@ -53,7 +53,7 @@ function Feature({title, Svg, description}: FeatureItem) {
   );
 }
 
-export default function HomepageFeatures(): JSX.Element {
+export default function HomepageFeatures(): React.JSX.Element {
   return (
     <section className={styles.features}>
       <div className="container">
@@ -63,8 +63,16 @@ export default function HomepageFeatures(): JSX.Element {
           ))}
         </div>
         <div>
-          <h1 align="center">2026招新视频</h1>
-          <iframe width="100%" height="720" src="//player.bilibili.com/player.html?bvid=BV1oVKA6QEis" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+          <h2 style={{ textAlign: 'center' }}>2026招新视频</h2>
+          <iframe
+            width="100%"
+            height="720"
+            src="//player.bilibili.com/player.html?bvid=BV1oVKA6QEis"
+            scrolling="no"
+            frameBorder="0"
+            allowFullScreen
+            title="2026招新视频"
+          />
         </div>
       </div>
     </section>

@@ -12,8 +12,7 @@ const config = {
   url: 'https://guetsec.cn/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/CodeSandbox.svg',
+  favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -23,6 +22,12 @@ const config = {
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
+
   i18n: {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'],
@@ -53,14 +58,9 @@ const config = {
     ({
       navbar: {
         title: '桂林电子科技大学-信息安全协会',
-        // logo: {
-        //   alt: 'My Site Logo',
-        //   src: 'img/logo.svg',
-        // },
-        // { to: '/about', label: '关于', position: 'right' },
         items: [
           {
-            to: 'docs/intro',
+            to: '/docs/',
             activeBasePath: 'docs',
             position: 'left',
             label: '文档',

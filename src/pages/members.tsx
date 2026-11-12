@@ -33,7 +33,7 @@ function MemberList() {
                 className={'col col--3 margin-bottom--md'}
                 name={member.name}
                 avatar={member.avatar}
-                children={member.description}
+                description={member.description}
                 blogUrl={member.blogUrl}
               />
             ))}

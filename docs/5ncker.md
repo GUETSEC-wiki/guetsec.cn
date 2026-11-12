@@ -1,6 +1,5 @@
 ---
 sidebar_position: 2
-sulg: /5ncker
 ---
 # 5ncker说的道理
 
