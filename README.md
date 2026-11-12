@@ -26,5 +26,5 @@ npm run start
 使用命令启动服务
 
 ```shell
-nom run server
+npm run serve
 ```
